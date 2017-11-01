@@ -9,11 +9,11 @@ export default class App extends Component {
     this.fetchTags()
   }
 
-  fetchTags = () => {
-    fetch('data.json')
-      .then(response => response.json())
-      .then(data => this.setState({ feed: data.data, loading: false })
-      .catch(error => console.log(error))
+  fetchTags = async () => {
+    const response = await fetch('data.json')
+    const data = await response.json()
+    
+    this.setState({ feed: data.data, loading: false})    
   }
             
   render() {
