@@ -1,1 +1,102 @@
+.App {
+  text-align: center;
+  width: 400px;
+  height: 700px;
+  margin: calc(50vh - 350px) auto;
+  background: #fff;
+  position: relative;
+  overflow: scroll;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.3);
+}
+
+header {
+  background: linear-gradient(30deg, #FF99C9, #f874b4);
+  position: fixed;
+  width: 385px;
+  z-index: 2;
+  height: 60px;
+  box-shadow: 0px 4px 14px -2px rgba(0,0,0,0.18);
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  top: calc(50% - 15px)
+}
+
+h1 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 300;
+  float: right;
+  padding: 5px 20px
+}
+
+.image-container {
+  font-size: 20px;
+  border-bottom: 1px solid rgb(238, 234, 234);
+  height: auto;
+  padding-top: 15px;
+  position: relative;
+  top: 60px;
+  padding-bottom: 10px
+}
+
+.user-details {
+  text-align: left;
+  height: auto;
+  padding: 0 0 0 20px;
+  position: relative;
+}
+
+.user-details p {
+  font-size: 14px;
+  font-weight: 500;
+  float: right;
+  padding: 0 220px 0 0;
+  cursor: pointer
+}
+
+#avatar {
+  width: 45px;
+  border-radius: 50%;
+}
+
+button {
+  background: #FF99C9;
+  color: #fff;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 15px)
+}
+
+button:hover {
+  background: #FF1A93
+}
+
+.image-details p {
+  font-size: 14px;
+  padding-left: 20px;
+  text-align: left
+}
+
+.image-details span {
+  font-weight: 600;
+}
+
+#frame {
+  width: 100%;
+  height: auto;  
+  margin-top: 10px;
+}
+
+
 
